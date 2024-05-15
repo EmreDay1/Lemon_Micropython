@@ -1,5 +1,5 @@
 # Lemon_Micropython
-This is the library for controlling Lemon Robots with micropython via the RaspberryPi Pico
+This is the library for controlling Lemon Robots with micropython via the RaspberryPi Pico, It is a library which acsess the PCA9685 servo controller, it was built due to the adafruit PCA9685 library being deprecated
 
 
 Firstly, you must connect your Pico to your computer with the pico cable. Then you must connect the PCA9685 to your Pico. Firstly you must connect the SCL, SDA, VCC and Ground pins of the PCA9685 to your picos General Purpose Input Output(GPIO) pins. You should connect SDA to pin zero, SCL to pin one.![073cf75b-f7a1-41f8-8be5-8a3ceca66a8d](https://github.com/HisarCS/Lemon_Micropython/assets/120194760/a306004c-99e0-4492-924a-61f84acff67c) Then you should connect VCC to pin 40 and Ground to pin 38 as seen in the image below. <img width="659" alt="Ekran Resmi 2023-07-14 22 05 38" src="https://github.com/HisarCS/Lemon_Micropython/assets/66021457/c94857f9-6346-425e-9317-646f2ec98a96">
